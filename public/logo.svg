@@ -1,0 +1,24 @@
+<svg viewBox="0 0 1000 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Orbit Shape (Light Blue) -->
+  <g id="orbit-shape">
+    <path d="M 200 300 Q 300 150 500 150 Q 700 150 800 300 Q 700 450 500 450 Q 300 450 200 300" fill="#38BDF8" opacity="0.9"/>
+    <circle cx="800" cy="300" r="40" fill="#38BDF8"/>
+  </g>
+  
+  <!-- D Letter (Dark Navy) -->
+  <g id="d-letter">
+    <path d="M 520 150 L 640 150 Q 750 150 750 300 Q 750 450 640 450 L 520 450 Z" fill="#0F172A" stroke="none"/>
+  </g>
+  
+  <!-- Dot (Bright Blue) -->
+  <circle cx="820" cy="120" r="25" fill="#0EA5E9"/>
+  
+  <!-- Text -->
+  <text x="100" y="550" font-family="Arial, sans-serif" font-size="140" font-weight="bold" fill="#0EA5E9">ORBIT</text>
+  <text x="520" y="550" font-family="Arial, sans-serif" font-size="140" font-weight="bold" fill="#0F172A">DIGITAL</text>
+  
+  <!-- Tagline -->
+  <line x1="150" y1="580" x2="280" y2="580" stroke="#38BDF8" stroke-width="3"/>
+  <text x="300" y="595" font-family="Arial, sans-serif" font-size="32" font-weight="600" fill="#0F172A">EMPOWERING YOUR BUSINESS TO GROW.</text>
+  <line x1="920" y1="580" x2="1050" y2="580" stroke="#38BDF8" stroke-width="3"/>
+</svg>
