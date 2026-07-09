@@ -47,10 +47,10 @@ const EmployeeDashboard = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: idx * 0.1 }}
-              className={`bg-white border border-${stat.color}-100 rounded-2xl p-6 hover:border-${stat.color}-200 hover:shadow-lg transition-all`}
+              className="bg-white border border-sky-100 rounded-2xl p-6 hover:border-sky-200 hover:shadow-lg transition-all"
             >
               <div className="flex items-center gap-4">
-                <div className={`w-12 h-12 bg-${stat.color}-100 rounded-lg flex items-center justify-center text-${stat.color}-600`}>
+                <div className="w-12 h-12 bg-sky-100 rounded-lg flex items-center justify-center text-sky-600">
                   {stat.icon}
                 </div>
                 <div>
